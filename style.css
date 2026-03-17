@@ -1,0 +1,129 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background: #f8f5ff;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #6a0dad, #9b59b6);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navigation */
+nav {
+    background: #4b0082;
+    text-align: center;
+    padding: 12px;
+}
+
+nav a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #d8b4f8;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero h2 {
+    color: #6a0dad;
+}
+
+.btn {
+    background: #6a0dad;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #4b0082;
+}
+
+/* Product Cards */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    margin: 15px;
+    padding: 20px;
+    width: 260px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card h3 {
+    color: #6a0dad;
+}
+
+/* Forms */
+form {
+    margin-top: 20px;
+}
+
+input, textarea {
+    width: 260px;
+    padding: 10px;
+    margin: 8px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background: #6a0dad;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #4b0082;
+}
+
+/* Footer */
+footer {
+    background: #4b0082;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
